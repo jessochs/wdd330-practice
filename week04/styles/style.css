@@ -1,0 +1,25 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+}
+
+.box {
+    text-align: center;
+    font-size: 30px;
+    background-color: deeppink;
+    color: white;
+    height: 300px;
+    width: 300px;
+    animation-name: myanima;
+    animation-duration: 10s;
+}
+
+@keyframes myanima {
+    0%{background-color: deeppink;}
+    50%{background-color: deepskyblue;}
+    100%{background-color: rgba(148, 0, 211, 0.332);}
+
+}

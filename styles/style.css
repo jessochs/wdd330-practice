@@ -1,0 +1,21 @@
+header{
+    font-size: 30px;
+    width: 100%;
+    background-color: rgba(6, 183, 243, 0.425);
+    padding: 50px;
+    text-align: center;
+}
+main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+footer {
+    width: 100%;
+    background-color: rgba(6, 183, 243, 0.425);
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+
+}
